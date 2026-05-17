@@ -356,7 +356,7 @@ function countBy(key) {
 // Gender donut
 (function(){
   const gcnt = countBy('gender');
-  const segs=[{label:'Women',value:gcnt['F']||0,color:'#c97fb0'},{label:'Men',value:gcnt['M']||0,color:'#5b8fa8'}];
+  const segs=[{label:'Women',value:gcnt['F']||0,color:'#2d5a3d'},{label:'Men',value:gcnt['M']||0,color:'#c8962a'}];
   makeDonut('gender-donut',segs); makeLegend('gender-legend',segs);
 })();
 
